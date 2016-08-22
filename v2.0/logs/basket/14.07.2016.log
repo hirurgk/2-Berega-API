@@ -1,0 +1,1830 @@
+================================
+/api/v2.0/basket/actualize
+14.07.2016 11:14:34
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 11:14:34","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"440","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; PHPSESSID=2ee692f8ab6c4498c291141cb3d0c5cf; BITRIX_SM_UIDH=df2036784fa776ced0e20ff64f6e6e83; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 11:14:34
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 440
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; PHPSESSID=2ee692f8ab6c4498c291141cb3d0c5cf; BITRIX_SM_UIDH=df2036784fa776ced0e20ff64f6e6e83; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[]},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468480474}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 11:22:19
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 11:22:19","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"440","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=825nlg60r7c6fahf6ov7g9lc90"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 11:22:19
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 440
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=825nlg60r7c6fahf6ov7g9lc90
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[]},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468480939}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 11:44:27
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 11:44:27","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"440","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=kqt2fa500si479k8d8c8khnm14"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 11:44:27
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 440
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=kqt2fa500si479k8d8c8khnm14
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[]},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468482267}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 11:49:12
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 11:49:12","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"440","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=rtdidqudsrk9n2dfk7k2udv4h5"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 11:49:12
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 440
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=rtdidqudsrk9n2dfk7k2udv4h5
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[{"ID":14797,"GROUP_ID":[1,4,67,71,79],"SECTION_NAME":"\u041f\u0438\u0446\u0446\u0430","NAME":"\u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0430\u044f \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","SORT":10,"TIMESTAMP_X":"14.04.2016 10:32:01","ACTIVE":true,"SMALL_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/iblock\/abf\/abf7b936b3f59a5cbbe3494b74540388.jpg","BIG_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/iblock\/0d6\/0d69c63627aceefb84f228b111a4b476.jpg","STRUCTURE":"\u041a\u0443\u0440\u0438\u0446\u0430, \u0442\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u043f\u0438\u0446\u0446\u0430-\u0441\u043e\u0443\u0441, \u043e\u0445\u043e\u0442\u043d\u0438\u0447\u044c\u0438 \u043a\u043e\u043b\u0431\u0430\u0441\u043a\u0438, \u0441\u043e\u0443\u0441 \u0411\u0430\u0440\u0431\u0435\u043a\u044e, \u043c\u043e\u0446\u0430\u0440\u0435\u043b\u043b\u0430, \u0443\u043a\u0440\u043e\u043f","WEIGHT":344,"PRICE":269,"ACTION_PRICE":null,"ACTIVE_ACTION_PRICE":false,"CAN_BUY":true,"ADD_BASKET":true,"PERIOD_ACTION_PRICE":{"FROM":"","TO":"","DAYS":""},"PERIOD_TO_BUY":{"FROM":"","TO":""},"ATTR":{"HIT":true,"NEW":false,"DISCOUNT_PERCENT":null,"FREE_CHOPSTICKS":false},"FILTERS":[628,624,614,615,616,619],"TOPPINGS":[25,26,27]},{"ID":755,"GROUP_ID":[1,4,6,79],"SECTION_NAME":"\u041f\u0438\u0446\u0446\u0430","NAME":"\u041a\u0430\u0440\u0431\u043e\u043d\u0430\u0440\u0430 \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","SORT":80,"TIMESTAMP_X":"04.03.2016 11:58:15","ACTIVE":true,"SMALL_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/resize_cache\/iblock\/8b6\/150_150_2\/8b6155f28b1e81cec2961178e6b34309.jpg","BIG_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/resize_cache\/iblock\/39d\/750_469_2\/39d78ff6975c3197dbbcd7ba0cb7f947.jpg","STRUCTURE":"\u0411\u0435\u043a\u043e\u043d, \u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d, \u0441\u043e\u0443\u0441 \u0441\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u0439, \u043c\u043e\u0446\u0430\u0440\u0435\u043b\u043b\u0430","WEIGHT":378,"PRICE":482,"ACTION_PRICE":null,"SAUCES":{"LIST":[{"CODE":"SL_CREAMY","NAME":"\u0421\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u0439 \u0441\u043e\u0443\u0441"},{"CODE":"SL_TOMATO","NAME":"\u0422\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u0441\u043e\u0443\u0441"}],"SAUCE_DEFAULT":"SL_CREAMY"},"ACTIVE_ACTION_PRICE":false,"CAN_BUY":true,"ADD_BASKET":true,"PERIOD_ACTION_PRICE":{"FROM":"","TO":"","DAYS":""},"PERIOD_TO_BUY":{"FROM":"","TO":""},"ATTR":{"HIT":false,"NEW":false,"DISCOUNT_PERCENT":null,"FREE_CHOPSTICKS":false},"FILTERS":[619,614,616,615,622,630,612],"TOPPINGS":[25,26,27]}],"TIMESTAMP":1468482552}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 11:58:34
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 11:58:34","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=8mls1m92420dsav5baq2187eh7"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_CREAMY","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 11:58:34
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=8mls1m92420dsav5baq2187eh7
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_CREAMY
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[]},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468483114}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 11:58:50
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 11:58:50","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=em6ujo3bu9tbvgni48ihpik914"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_CREAMY","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 11:58:50
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=em6ujo3bu9tbvgni48ihpik914
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_CREAMY
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[{"IBLOCK_ID":"1","PRODUCT_ID":"755","LID":"s1","NAME":"\u041f\u0438\u0446\u0446\u0430 \u041a\u0430\u0440\u0431\u043e\u043d\u0430\u0440\u0430 \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","DETAIL_PAGE_URL":"192.168.15.110\/products\/karbonara-na-tonkom-teste\/","QUANTITY":1,"PRICE":"482.00","CURRENCY":"RUB","CAN_BUY":"Y","PROPS":[{"NAME":"\u0441\u043e\u0443\u0441","CODE":"SOUS","VALUE":"SL_CREAMY","SORT":"100"}],"MODULE":"catalog"},{"IBLOCK_ID":"1","PRODUCT_ID":"14797","LID":"s1","NAME":"\u041f\u0438\u0446\u0446\u0430 \u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0430\u044f \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","DETAIL_PAGE_URL":"192.168.15.110\/products\/tekhasskaya-na-tonkom-teste\/","QUANTITY":1,"PRICE":"269.00","CURRENCY":"RUB","CAN_BUY":"Y","PROPS":[{"NAME":"\u0414\u043e\u043f.\u0438\u043d\u0433\u0440\u0438\u0434\u0438\u0435\u043d\u0442\u044b \u043a \u043f\u0438\u0446\u0446\u0435","CODE":"NABORLIST_PIZZA","VALUE":"55,1,69.00","SORT":"100"},{"NAME":"\u0421\u043f\u0438\u0441\u043e\u043a \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u043e\u0432 (\u043d\u0435 \u0437\u0430\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f)","CODE":"DOPLIST","VALUE":"\u041f\u0438\u0446\u0446\u0430 \u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0430\u044f \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435[\u0428\u0430\u043c\u043f\u0438\u043d\u044c\u043e\u043d\u044b]","SORT":"100"}],"MODULE":"catalog"}],"TIMESTAMP":1468483130}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 11:59:11
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 11:59:11","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=gtnrljmi35ha0d5tek36obvq65"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_CREAMY","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 11:59:11
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=gtnrljmi35ha0d5tek36obvq65
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_CREAMY
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"ORDER_PRICE":820,"BASE_PRICE":820,"ORDER_PRICE_FORMATED":"820,00","DISCOUNT":{"margoFlag":"N","resultWithDiscount":820,"discountValue":0,"user_id":false},"PRODUCTS":[{"IBLOCK_ID":"1","PRODUCT_ID":"755","LID":"s1","NAME":"\u041f\u0438\u0446\u0446\u0430 \u041a\u0430\u0440\u0431\u043e\u043d\u0430\u0440\u0430 \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","DETAIL_PAGE_URL":"192.168.15.110\/products\/karbonara-na-tonkom-teste\/","QUANTITY":1,"PRICE":"482.00","CURRENCY":"RUB","CAN_BUY":"Y","PROPS":[{"NAME":"\u0441\u043e\u0443\u0441","CODE":"SOUS","VALUE":"SL_CREAMY","SORT":"100"}],"MODULE":"catalog"},{"IBLOCK_ID":"1","PRODUCT_ID":"14797","LID":"s1","NAME":"\u041f\u0438\u0446\u0446\u0430 \u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0430\u044f \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","DETAIL_PAGE_URL":"192.168.15.110\/products\/tekhasskaya-na-tonkom-teste\/","QUANTITY":1,"PRICE":338,"CURRENCY":"RUB","CAN_BUY":"Y","PROPS":[{"NAME":"\u0414\u043e\u043f.\u0438\u043d\u0433\u0440\u0438\u0434\u0438\u0435\u043d\u0442\u044b \u043a \u043f\u0438\u0446\u0446\u0435","CODE":"NABORLIST_PIZZA","VALUE":"55,1,69.00","SORT":"100"},{"NAME":"\u0421\u043f\u0438\u0441\u043e\u043a \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u043e\u0432 (\u043d\u0435 \u0437\u0430\u043f\u043e\u043b\u043d\u044f\u0435\u0442\u0441\u044f)","CODE":"DOPLIST","VALUE":"\u041f\u0438\u0446\u0446\u0430 \u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0430\u044f \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435[\u0428\u0430\u043c\u043f\u0438\u043d\u044c\u043e\u043d\u044b]","SORT":"100"}],"MODULE":"catalog","GOODS_PRICE":"269.00","PRICE_FORMATED":"338,00"}]},"TIMESTAMP":1468483151}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:03:15
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:03:15","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=9qc0a8k21eppghna3ilm1ug1n6"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_CREAMY","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:03:15
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=9qc0a8k21eppghna3ilm1ug1n6
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_CREAMY
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_CREAMY"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468483395}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:03:30
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:03:30","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=mmpdado5k8klod16hgtgq4n025"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:03:30
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=mmpdado5k8klod16hgtgq4n025
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468483410}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:03:33
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:03:33","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"475","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=r632m36o254sjr7vbgp8vat6n2"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO2","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:03:33
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 475
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=r632m36o254sjr7vbgp8vat6n2
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO2
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO2"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468483413}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:03:40
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:03:40","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=v4hr3j29s34h3r3iaimnvoc5j2"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:03:40
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=v4hr3j29s34h3r3iaimnvoc5j2
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468483420}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:06:48
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:06:48","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=b03ajl0s3jt7ipkgvb8orsf5k3"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:06:48
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=b03ajl0s3jt7ipkgvb8orsf5k3
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"TOTAL_PRICE":820},"TIMESTAMP":1468483608}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:07:06
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:07:06","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=4tcp2g6bkp56aipge25fj8q225"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:07:06
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=4tcp2g6bkp56aipge25fj8q225
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"CHANGED_MESSAGE":"\u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430 \u0431\u044b\u043b \u0438\u0437\u043c\u0435\u043d\u0451\u043d","TOTAL_PRICE":820},"TIMESTAMP":1468483626}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:07:17
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:07:17","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"371","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=6v1nntbm1gs6sc1qbk68vsb7c4"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:07:17
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 371
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=6v1nntbm1gs6sc1qbk68vsb7c4
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":false,"TOTAL_PRICE":820},"TIMESTAMP":1468483637}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:07:26
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:07:26","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"476","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=as5dibvt0lpli8erm2ttilioa7"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":9999999,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:07:26
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 476
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=as5dibvt0lpli8erm2ttilioa7
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 9999999
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"}],"CHANGED":true,"CHANGED_TOPPINGS":true,"CHANGED_MESSAGE":"\u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430 \u0431\u044b\u043b \u0438\u0437\u043c\u0435\u043d\u0451\u043d","TOTAL_PRICE":482},"TIMESTAMP":1468483646}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:07:32
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:07:32","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=hpb2irv5h5nsdsprt0a8pjkg57"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:07:32
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=hpb2irv5h5nsdsprt0a8pjkg57
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"CHANGED_MESSAGE":"\u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430 \u0431\u044b\u043b \u0438\u0437\u043c\u0435\u043d\u0451\u043d","TOTAL_PRICE":820},"TIMESTAMP":1468483652}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:11:59
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:11:59","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=g662lvdgsrrgtcael6fshciss5"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:11:59
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=g662lvdgsrrgtcael6fshciss5
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"PRODUCTS_ORIGINAL":false,"CHANGED":false,"CHANGED_TOPPINGS":true,"CHANGED_MESSAGE":"\u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430 \u0431\u044b\u043b \u0438\u0437\u043c\u0435\u043d\u0451\u043d","TOTAL_PRICE":820},"TIMESTAMP":1468483919}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:12:07
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:12:07","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=04r7kslvc47i8mrk502hp2r4f0"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:12:07
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=04r7kslvc47i8mrk502hp2r4f0
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"PRODUCTS_ORIGINAL":[{"ID":14797,"GROUP_ID":[1,4,67,71,79],"SECTION_NAME":"\u041f\u0438\u0446\u0446\u0430","NAME":"\u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0430\u044f \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","SORT":10,"TIMESTAMP_X":"14.04.2016 10:32:01","ACTIVE":true,"SMALL_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/iblock\/abf\/abf7b936b3f59a5cbbe3494b74540388.jpg","BIG_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/iblock\/0d6\/0d69c63627aceefb84f228b111a4b476.jpg","STRUCTURE":"\u041a\u0443\u0440\u0438\u0446\u0430, \u0442\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u043f\u0438\u0446\u0446\u0430-\u0441\u043e\u0443\u0441, \u043e\u0445\u043e\u0442\u043d\u0438\u0447\u044c\u0438 \u043a\u043e\u043b\u0431\u0430\u0441\u043a\u0438, \u0441\u043e\u0443\u0441 \u0411\u0430\u0440\u0431\u0435\u043a\u044e, \u043c\u043e\u0446\u0430\u0440\u0435\u043b\u043b\u0430, \u0443\u043a\u0440\u043e\u043f","WEIGHT":344,"PRICE":269,"ACTION_PRICE":null,"ACTIVE_ACTION_PRICE":false,"CAN_BUY":true,"ADD_BASKET":true,"PERIOD_ACTION_PRICE":{"FROM":"","TO":"","DAYS":""},"PERIOD_TO_BUY":{"FROM":"","TO":""},"ATTR":{"HIT":true,"NEW":false,"DISCOUNT_PERCENT":null,"FREE_CHOPSTICKS":false},"FILTERS":[628,624,614,615,616,619],"TOPPINGS":[25,26,27]},{"ID":755,"GROUP_ID":[1,4,6,79],"SECTION_NAME":"\u041f\u0438\u0446\u0446\u0430","NAME":"\u041a\u0430\u0440\u0431\u043e\u043d\u0430\u0440\u0430 \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","SORT":80,"TIMESTAMP_X":"04.03.2016 11:58:15","ACTIVE":true,"SMALL_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/resize_cache\/iblock\/8b6\/150_150_2\/8b6155f28b1e81cec2961178e6b34309.jpg","BIG_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/resize_cache\/iblock\/39d\/750_469_2\/39d78ff6975c3197dbbcd7ba0cb7f947.jpg","STRUCTURE":"\u0411\u0435\u043a\u043e\u043d, \u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d, \u0441\u043e\u0443\u0441 \u0441\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u0439, \u043c\u043e\u0446\u0430\u0440\u0435\u043b\u043b\u0430","WEIGHT":378,"PRICE":482,"ACTION_PRICE":null,"SAUCES":{"LIST":[{"CODE":"SL_CREAMY","NAME":"\u0421\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u0439 \u0441\u043e\u0443\u0441"},{"CODE":"SL_TOMATO","NAME":"\u0422\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u0441\u043e\u0443\u0441"}],"SAUCE_DEFAULT":"SL_CREAMY"},"ACTIVE_ACTION_PRICE":false,"CAN_BUY":true,"ADD_BASKET":true,"PERIOD_ACTION_PRICE":{"FROM":"","TO":"","DAYS":""},"PERIOD_TO_BUY":{"FROM":"","TO":""},"ATTR":{"HIT":false,"NEW":false,"DISCOUNT_PERCENT":null,"FREE_CHOPSTICKS":false},"FILTERS":[619,614,616,615,622,630,612],"TOPPINGS":[25,26,27]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"CHANGED_MESSAGE":"\u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430 \u0431\u044b\u043b \u0438\u0437\u043c\u0435\u043d\u0451\u043d","TOTAL_PRICE":820},"TIMESTAMP":1468483927}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:12:15
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:12:15","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"474","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=up00bj7jdv8i0e9ik1u2erh3u2"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":14797,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:12:15
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 474
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=up00bj7jdv8i0e9ik1u2erh3u2
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 14797
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"},{"ID":14797,"PRICE":269,"QUANTITY":1,"TOPPINGS":[{"ID":55,"QUANTITY":1,"PRICE":69}]}],"PRODUCTS_INFO":[{"ID":14797,"GROUP_ID":[1,4,67,71,79],"SECTION_NAME":"\u041f\u0438\u0446\u0446\u0430","NAME":"\u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0430\u044f \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","SORT":10,"TIMESTAMP_X":"14.04.2016 10:32:01","ACTIVE":true,"SMALL_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/iblock\/abf\/abf7b936b3f59a5cbbe3494b74540388.jpg","BIG_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/iblock\/0d6\/0d69c63627aceefb84f228b111a4b476.jpg","STRUCTURE":"\u041a\u0443\u0440\u0438\u0446\u0430, \u0442\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u043f\u0438\u0446\u0446\u0430-\u0441\u043e\u0443\u0441, \u043e\u0445\u043e\u0442\u043d\u0438\u0447\u044c\u0438 \u043a\u043e\u043b\u0431\u0430\u0441\u043a\u0438, \u0441\u043e\u0443\u0441 \u0411\u0430\u0440\u0431\u0435\u043a\u044e, \u043c\u043e\u0446\u0430\u0440\u0435\u043b\u043b\u0430, \u0443\u043a\u0440\u043e\u043f","WEIGHT":344,"PRICE":269,"ACTION_PRICE":null,"ACTIVE_ACTION_PRICE":false,"CAN_BUY":true,"ADD_BASKET":true,"PERIOD_ACTION_PRICE":{"FROM":"","TO":"","DAYS":""},"PERIOD_TO_BUY":{"FROM":"","TO":""},"ATTR":{"HIT":true,"NEW":false,"DISCOUNT_PERCENT":null,"FREE_CHOPSTICKS":false},"FILTERS":[628,624,614,615,616,619],"TOPPINGS":[25,26,27]},{"ID":755,"GROUP_ID":[1,4,6,79],"SECTION_NAME":"\u041f\u0438\u0446\u0446\u0430","NAME":"\u041a\u0430\u0440\u0431\u043e\u043d\u0430\u0440\u0430 \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","SORT":80,"TIMESTAMP_X":"04.03.2016 11:58:15","ACTIVE":true,"SMALL_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/resize_cache\/iblock\/8b6\/150_150_2\/8b6155f28b1e81cec2961178e6b34309.jpg","BIG_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/resize_cache\/iblock\/39d\/750_469_2\/39d78ff6975c3197dbbcd7ba0cb7f947.jpg","STRUCTURE":"\u0411\u0435\u043a\u043e\u043d, \u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d, \u0441\u043e\u0443\u0441 \u0441\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u0439, \u043c\u043e\u0446\u0430\u0440\u0435\u043b\u043b\u0430","WEIGHT":378,"PRICE":482,"ACTION_PRICE":null,"SAUCES":{"LIST":[{"CODE":"SL_CREAMY","NAME":"\u0421\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u0439 \u0441\u043e\u0443\u0441"},{"CODE":"SL_TOMATO","NAME":"\u0422\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u0441\u043e\u0443\u0441"}],"SAUCE_DEFAULT":"SL_CREAMY"},"ACTIVE_ACTION_PRICE":false,"CAN_BUY":true,"ADD_BASKET":true,"PERIOD_ACTION_PRICE":{"FROM":"","TO":"","DAYS":""},"PERIOD_TO_BUY":{"FROM":"","TO":""},"ATTR":{"HIT":false,"NEW":false,"DISCOUNT_PERCENT":null,"FREE_CHOPSTICKS":false},"FILTERS":[619,614,616,615,622,630,612],"TOPPINGS":[25,26,27]}],"CHANGED":false,"CHANGED_TOPPINGS":true,"CHANGED_MESSAGE":"\u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430 \u0431\u044b\u043b \u0438\u0437\u043c\u0435\u043d\u0451\u043d","TOTAL_PRICE":820},"TIMESTAMP":1468483935}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:12:42
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:12:42","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"475","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=9gjhl0sqd2fs9b1i2r7na7ug07"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":755,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":999999,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:12:42
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 475
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=9gjhl0sqd2fs9b1i2r7na7ug07
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 755
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 999999
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS":[{"ID":755,"PRICE":482,"QUANTITY":1,"TOPPINGS":[],"SAUCE":"SL_TOMATO"}],"PRODUCTS_INFO":[{"ID":755,"GROUP_ID":[1,4,6,79],"SECTION_NAME":"\u041f\u0438\u0446\u0446\u0430","NAME":"\u041a\u0430\u0440\u0431\u043e\u043d\u0430\u0440\u0430 \u043d\u0430 \u0442\u043e\u043d\u043a\u043e\u043c \u0442\u0435\u0441\u0442\u0435","SORT":80,"TIMESTAMP_X":"04.03.2016 11:58:15","ACTIVE":true,"SMALL_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/resize_cache\/iblock\/8b6\/150_150_2\/8b6155f28b1e81cec2961178e6b34309.jpg","BIG_PICTURE":"http:\/\/192.168.15.110:6449\/upload\/resize_cache\/iblock\/39d\/750_469_2\/39d78ff6975c3197dbbcd7ba0cb7f947.jpg","STRUCTURE":"\u0411\u0435\u043a\u043e\u043d, \u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d, \u0441\u043e\u0443\u0441 \u0441\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u0439, \u043c\u043e\u0446\u0430\u0440\u0435\u043b\u043b\u0430","WEIGHT":378,"PRICE":482,"ACTION_PRICE":null,"SAUCES":{"LIST":[{"CODE":"SL_CREAMY","NAME":"\u0421\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u0439 \u0441\u043e\u0443\u0441"},{"CODE":"SL_TOMATO","NAME":"\u0422\u043e\u043c\u0430\u0442\u043d\u044b\u0439 \u0441\u043e\u0443\u0441"}],"SAUCE_DEFAULT":"SL_CREAMY"},"ACTIVE_ACTION_PRICE":false,"CAN_BUY":true,"ADD_BASKET":true,"PERIOD_ACTION_PRICE":{"FROM":"","TO":"","DAYS":""},"PERIOD_TO_BUY":{"FROM":"","TO":""},"ATTR":{"HIT":false,"NEW":false,"DISCOUNT_PERCENT":null,"FREE_CHOPSTICKS":false},"FILTERS":[619,614,616,615,622,630,612],"TOPPINGS":[25,26,27]}],"CHANGED":true,"CHANGED_TOPPINGS":true,"CHANGED_MESSAGE":"\u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430 \u0431\u044b\u043b \u0438\u0437\u043c\u0435\u043d\u0451\u043d","TOTAL_PRICE":482},"TIMESTAMP":1468483962}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:12:53
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:12:53","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"477","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=fvvhbit2app2ombobddkqqc256"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":99999,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":999999,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:12:53
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 477
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=fvvhbit2app2ombobddkqqc256
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 99999
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 999999
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[{"CODE":1700,"MESSAGE":"\u0422\u043e\u0432\u0430\u0440\u044b \u0432 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b"}],"ANSWER":[],"TIMESTAMP":1468483973}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:13:56
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:13:56","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"477","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=nvt6nmofh50mf4j5om35suvuk1"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":99999,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":999999,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:13:56
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 477
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=nvt6nmofh50mf4j5om35suvuk1
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 99999
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 999999
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[{"CODE":1700,"MESSAGE":"\u0422\u043e\u0432\u0430\u0440\u044b \u0432 \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b"}],"ANSWER":[],"TIMESTAMP":1468484036}
+================================
+
+================================
+/api/v2.0/basket/actualize
+14.07.2016 12:14:04
+User:  ()
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/basket\/actualize","DATE":"14.07.2016 12:14:04","USER":" ()","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"477","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Site-Id":"s1","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=ue7q1ot7pakbp0nu1olg4iqh64"},"GET":[],"POST":[],"BODY":{"PRODUCTS":[{"ID":99999,"SAUCE":"SL_TOMATO","TOPPINGS":[],"QUANTITY":1},{"ID":999999,"TOPPINGS":[{"ID":55,"QUANTITY":1},{"ID":9999,"QUANTITY":1}],"QUANTITY":1}]}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/basket/actualize
+    [DATE] => 14.07.2016 12:14:04
+    [USER] =>  ()
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 477
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Site-Id] => s1
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_SALE_UID=0; PHPSESSID=ue7q1ot7pakbp0nu1olg4iqh64
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 99999
+                            [SAUCE] => SL_TOMATO
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 999999
+                            [TOPPINGS] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [ID] => 55
+                                            [QUANTITY] => 1
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [ID] => 9999
+                                            [QUANTITY] => 1
+                                        )
+
+                                )
+
+                            [QUANTITY] => 1
+                        )
+
+                )
+
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":{"PRODUCTS_INFO":[],"CHANGED":true,"CHANGED_TOPPINGS":true,"CHANGED_MESSAGE":"\u0421\u043e\u0441\u0442\u0430\u0432 \u0437\u0430\u043a\u0430\u0437\u0430 \u0431\u044b\u043b \u0438\u0437\u043c\u0435\u043d\u0451\u043d","TOTAL_PRICE":0},"TIMESTAMP":1468484044}
+================================
+

@@ -1,0 +1,9 @@
+[30-Jun-2016 14:05:00] PHP Parse error:  syntax error, unexpected T_PUBLIC in D:\www\www_new\www\api\v2.0\Slim\Lib\Basket.php on line 227
+[06-Jul-2016 13:17:33] PHP Fatal error:  Call to undefined method Slim\Lib\Order::getBasketForRepeat() in D:\www\www_new\www\api\v2.0\Slim\Lib\Order.php on line 123
+[06-Jul-2016 15:04:50] PHP Parse error:  syntax error, unexpected ',' in D:\www\www_new\www\bitrix\php_interface\tools\Order.php on line 400
+[06-Jul-2016 15:40:01] PHP Parse error:  syntax error, unexpected T_PUBLIC in D:\www\www_new\www\api\v2.0\Slim\Lib\Basket.php on line 55
+[06-Jul-2016 15:45:36] PHP Parse error:  syntax error, unexpected T_VARIABLE in D:\www\www_new\www\api\v2.0\Slim\Lib\Basket.php on line 43
+[07-Jul-2016 12:03:42] PHP Fatal error:  Class 'Slim\Lib\CSite' not found in D:\www\www_new\www\api\v2.0\Slim\Lib\Feedback.php on line 34
+[14-Jul-2016 12:15:58] PHP Fatal error:  Call to undefined method Slim\Lib\Order::getGoodsList() in D:\www\www_new\www\api\v2.0\Slim\Lib\Order.php on line 176
+[18-Jul-2016 12:34:56] PHP Fatal error:  Function name must be a string in D:\www\www_new\www\api\v2.0\Slim\Lib\Promo.php on line 127
+[18-Jul-2016 12:35:15] PHP Parse error:  syntax error, unexpected ')' in D:\www\www_new\www\api\v2.0\Slim\Lib\Promo.php on line 127

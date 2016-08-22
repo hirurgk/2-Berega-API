@@ -1,0 +1,646 @@
+================================
+/api/v2.0/promo/register
+18.07.2016 12:19:23
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:19:23","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"412","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"text\/plain;charset=UTF-8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_SALE_UID=15194148; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS="},"GET":[],"POST":[],"BODY":{"COMMENT_ADDRESS":"\u0414\u043e\u043c\u043e\u0444\u043e\u043d \u043d\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442","CHOPSTICKS":2,"NEW_ADDRESS":1,"FLAT":"200","PHONE":"+7(999)888-22-33","NAME":"\u0422\u0415\u0421\u0422","HOUSE":"52","STREET":"000004761","PRODUCTS":[{"ID":782,"QUANTITY":2,"TOPPINGS":[]}],"COMMENT_ORDER":"","PAY_SYSTEM_ID":8,"AUTO_ORDER":0,"ORDER_SOURCE":"SV10","APP_VERSION":"3.0.0","DISCOUNT":"NO"}}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:19:23
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 412
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => text/plain;charset=UTF-8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_SALE_UID=15194148; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+        )
+
+    [BODY] => Array
+        (
+            [COMMENT_ADDRESS] => Домофон не работает
+            [CHOPSTICKS] => 2
+            [NEW_ADDRESS] => 1
+            [FLAT] => 200
+            [PHONE] => +7(999)888-22-33
+            [NAME] => ТЕСТ
+            [HOUSE] => 52
+            [STREET] => 000004761
+            [PRODUCTS] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 782
+                            [QUANTITY] => 2
+                            [TOPPINGS] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [COMMENT_ORDER] => 
+            [PAY_SYSTEM_ID] => 8
+            [AUTO_ORDER] => 0
+            [ORDER_SOURCE] => SV10
+            [APP_VERSION] => 3.0.0
+            [DISCOUNT] => NO
+        )
+
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[null],"TIMESTAMP":1468829963}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:19:43
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:19:43","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryIyC3a1ykhIJ2F6f9","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:19:43
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryIyC3a1ykhIJ2F6f9
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":["efwfewefw"],"TIMESTAMP":1468829983}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:20:59
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:20:59","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryHuqeDy0jnouNp1H9","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:20:59
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryHuqeDy0jnouNp1H9
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[{"ID":"233669","TIMESTAMP_X":"18.07.2016 11:20:59","LOGIN":"y.alekseev","PASSWORD":"W8g]4~Ve5e7086a15ac8972550bf9c2136c3d0de","CHECKWORD":"K3NDPIcf87b70d901d8cab1c45befa3e8036450a","ACTIVE":"Y","NAME":"\u042e\u0440\u0438\u0439","LAST_NAME":"\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432","EMAIL":"y.alekseev@2-berega.ru","LAST_LOGIN":"18.07.2016 11:18:25","DATE_REGISTER":"28.01.2015 13:01:54","LID":"s1","PERSONAL_PROFESSION":"","PERSONAL_WWW":"","PERSONAL_ICQ":"","PERSONAL_GENDER":"M","PERSONAL_BIRTHDATE":null,"PERSONAL_PHOTO":"1554","PERSONAL_PHONE":"+7 964 398-75-56","PERSONAL_FAX":"","PERSONAL_MOBILE":"+7(964)398-75-56","PERSONAL_PAGER":"","PERSONAL_STREET":"","PERSONAL_MAILBOX":"","PERSONAL_CITY":"","PERSONAL_STATE":"","PERSONAL_ZIP":"","PERSONAL_COUNTRY":"0","PERSONAL_NOTES":"","WORK_COMPANY":"","WORK_DEPARTMENT":"","WORK_POSITION":"","WORK_WWW":"","WORK_PHONE":"","WORK_FAX":"","WORK_PAGER":"","WORK_STREET":"","WORK_MAILBOX":"","WORK_CITY":"","WORK_STATE":"","WORK_ZIP":"","WORK_COUNTRY":"0","WORK_PROFILE":"","WORK_LOGO":null,"WORK_NOTES":"","ADMIN_NOTES":"","STORED_HASH":null,"XML_ID":"","PERSONAL_BIRTHDAY":null,"EXTERNAL_AUTH_ID":null,"CHECKWORD_TIME":"2016-06-17 12:46:42","SECOND_NAME":"","CONFIRM_CODE":null,"LOGIN_ATTEMPTS":"0","LAST_ACTIVITY_DATE":"2016-07-18 11:20:58","AUTO_TIME_ZONE":"","TIME_ZONE":null,"TIME_ZONE_OFFSET":"0","OLD_ID":null,"PIN_CODE":null,"BX_USER_ID":"a81788c317e80216bf74ecec44fe2570","IS_ONLINE":"Y","UF_DISCOUNT":"5","UF_DISCOUNT_TYPE":"1","UF_RRID":"55e4074a1e99460814c4a671","UF_FAVORITE":null,"UF_DRINKS_COUNT":"0","UF_ADDRESS_SYNC":"Y","UF_INQUIRER":"1","UF_APP_DISCOUNT":null,"UF_PROMO_INVITE":null,"UF_PROMO_COUPONS":"[]","UF_ACTIVATED_CODES":null,"UF_PROMO_PRESENT":null,"UF_ID_ACTION_GIFT":null,"UF_ORDER_REQUEST":"17.06.2016 13:47:29"}],"TIMESTAMP":1468830059}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:22:07
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:22:07","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundary1vboAho5SB1vWWh2","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:22:07
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundary1vboAho5SB1vWWh2
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[{"ID":"233669","TIMESTAMP_X":"18.07.2016 11:22:07","LOGIN":"y.alekseev","PASSWORD":"W8g]4~Ve5e7086a15ac8972550bf9c2136c3d0de","CHECKWORD":"K3NDPIcf87b70d901d8cab1c45befa3e8036450a","ACTIVE":"Y","NAME":"\u042e\u0440\u0438\u0439","LAST_NAME":"\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432","EMAIL":"y.alekseev@2-berega.ru","LAST_LOGIN":"18.07.2016 11:18:25","DATE_REGISTER":"28.01.2015 13:01:54","LID":"s1","PERSONAL_PROFESSION":"","PERSONAL_WWW":"","PERSONAL_ICQ":"","PERSONAL_GENDER":"M","PERSONAL_BIRTHDATE":null,"PERSONAL_PHOTO":"1554","PERSONAL_PHONE":"+7 964 398-75-56","PERSONAL_FAX":"","PERSONAL_MOBILE":"+7(964)398-75-56","PERSONAL_PAGER":"","PERSONAL_STREET":"","PERSONAL_MAILBOX":"","PERSONAL_CITY":"","PERSONAL_STATE":"","PERSONAL_ZIP":"","PERSONAL_COUNTRY":"0","PERSONAL_NOTES":"","WORK_COMPANY":"","WORK_DEPARTMENT":"","WORK_POSITION":"","WORK_WWW":"","WORK_PHONE":"","WORK_FAX":"","WORK_PAGER":"","WORK_STREET":"","WORK_MAILBOX":"","WORK_CITY":"","WORK_STATE":"","WORK_ZIP":"","WORK_COUNTRY":"0","WORK_PROFILE":"","WORK_LOGO":null,"WORK_NOTES":"","ADMIN_NOTES":"","STORED_HASH":null,"XML_ID":"","PERSONAL_BIRTHDAY":null,"EXTERNAL_AUTH_ID":null,"CHECKWORD_TIME":"2016-06-17 12:46:42","SECOND_NAME":"","CONFIRM_CODE":null,"LOGIN_ATTEMPTS":"0","LAST_ACTIVITY_DATE":"2016-07-18 11:22:06","AUTO_TIME_ZONE":"","TIME_ZONE":null,"TIME_ZONE_OFFSET":"0","OLD_ID":null,"PIN_CODE":null,"BX_USER_ID":"a81788c317e80216bf74ecec44fe2570","IS_ONLINE":"Y","UF_DISCOUNT":"5","UF_DISCOUNT_TYPE":"1","UF_RRID":"55e4074a1e99460814c4a671","UF_FAVORITE":null,"UF_DRINKS_COUNT":"0","UF_ADDRESS_SYNC":"Y","UF_INQUIRER":"1","UF_APP_DISCOUNT":null,"UF_PROMO_INVITE":null,"UF_PROMO_COUPONS":"[]","UF_ACTIVATED_CODES":null,"UF_PROMO_PRESENT":null,"UF_ID_ACTION_GIFT":null,"UF_ORDER_REQUEST":"17.06.2016 13:47:29"}],"TIMESTAMP":1468830127}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:27:01
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:27:01","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryB9l22ayJhG9kSBWi","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:27:01
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryB9l22ayJhG9kSBWi
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[],"TIMESTAMP":1468830421}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:27:24
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:27:24","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundary0dZ6CvhUElVKJhZu","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:27:24
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundary0dZ6CvhUElVKJhZu
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[],"TIMESTAMP":1468830444}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:27:39
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:27:39","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryYxDL8S7HNF6hh6sf","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:27:39
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryYxDL8S7HNF6hh6sf
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; _gat=1; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[null],"ANSWER":[],"TIMESTAMP":1468830459}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:30:42
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:30:42","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryhwuEPfEbeu12eAj3","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:30:42
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryhwuEPfEbeu12eAj3
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[{"CODE":2307,"MESSAGE":"\u0421 \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u0440\u043e\u0448\u043b\u043e \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043c\u043d\u043e\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438"}],"ANSWER":[],"TIMESTAMP":1468830642}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:32:29
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:32:29","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryJOcYJTFjqKAQ69zx","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:32:29
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryJOcYJTFjqKAQ69zx
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[{"ID":"233669","TIMESTAMP_X":"18.07.2016 11:32:29","LOGIN":"y.alekseev","PASSWORD":"W8g]4~Ve5e7086a15ac8972550bf9c2136c3d0de","CHECKWORD":"K3NDPIcf87b70d901d8cab1c45befa3e8036450a","ACTIVE":"Y","NAME":"\u042e\u0440\u0438\u0439","LAST_NAME":"\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432","EMAIL":"y.alekseev@2-berega.ru","LAST_LOGIN":"18.07.2016 11:18:25","DATE_REGISTER":"28.01.2015 13:01:54","LID":"s1","PERSONAL_PROFESSION":"","PERSONAL_WWW":"","PERSONAL_ICQ":"","PERSONAL_GENDER":"M","PERSONAL_BIRTHDATE":null,"PERSONAL_PHOTO":"1554","PERSONAL_PHONE":"+7 964 398-75-56","PERSONAL_FAX":"","PERSONAL_MOBILE":"+7(964)398-75-56","PERSONAL_PAGER":"","PERSONAL_STREET":"","PERSONAL_MAILBOX":"","PERSONAL_CITY":"","PERSONAL_STATE":"","PERSONAL_ZIP":"","PERSONAL_COUNTRY":"0","PERSONAL_NOTES":"","WORK_COMPANY":"","WORK_DEPARTMENT":"","WORK_POSITION":"","WORK_WWW":"","WORK_PHONE":"","WORK_FAX":"","WORK_PAGER":"","WORK_STREET":"","WORK_MAILBOX":"","WORK_CITY":"","WORK_STATE":"","WORK_ZIP":"","WORK_COUNTRY":"0","WORK_PROFILE":"","WORK_LOGO":null,"WORK_NOTES":"","ADMIN_NOTES":"","STORED_HASH":null,"XML_ID":"","PERSONAL_BIRTHDAY":null,"EXTERNAL_AUTH_ID":null,"CHECKWORD_TIME":"2016-06-17 12:46:42","SECOND_NAME":"","CONFIRM_CODE":null,"LOGIN_ATTEMPTS":"0","LAST_ACTIVITY_DATE":"2016-07-18 11:32:28","AUTO_TIME_ZONE":"","TIME_ZONE":null,"TIME_ZONE_OFFSET":"0","OLD_ID":null,"PIN_CODE":null,"BX_USER_ID":"a81788c317e80216bf74ecec44fe2570","IS_ONLINE":"Y","UF_DISCOUNT":"5","UF_DISCOUNT_TYPE":"1","UF_RRID":"55e4074a1e99460814c4a671","UF_FAVORITE":null,"UF_DRINKS_COUNT":"0","UF_ADDRESS_SYNC":"Y","UF_INQUIRER":"1","UF_APP_DISCOUNT":null,"UF_PROMO_INVITE":null,"UF_PROMO_COUPONS":"{\"1241045dfe04\":{\"VALUE\":\"300\",\"DATE\":\"1555226822\"},\"12411480a67c\":{\"VALUE\":\"300\",\"DATE\":\"1555226845\"}}","UF_ACTIVATED_CODES":null,"UF_PROMO_PRESENT":null,"UF_ID_ACTION_GIFT":null,"UF_ORDER_REQUEST":"17.06.2016 13:47:29"}],"TIMESTAMP":1468830749}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:35:22
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:35:22","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundary1sqvfFVr330HRt7d","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:35:22
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundary1sqvfFVr330HRt7d
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[{"CODE":2307,"MESSAGE":"\u0421 \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438 \u043f\u0440\u043e\u0448\u043b\u043e \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u043c\u043d\u043e\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438"}],"ANSWER":[],"TIMESTAMP":1468830922}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:36:47
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:36:47","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryNOLnZMjRn9B5LD37","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:36:47
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryNOLnZMjRn9B5LD37
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[{"CODE":2309,"MESSAGE":"\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u043f\u043e \u043f\u0440\u043e\u043c\u043e\u043a\u043e\u0434\u0443"}],"ANSWER":[],"TIMESTAMP":1468831007}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:37:56
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:37:56","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"144","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryilxykO1PrNG7lFfY","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"efwfewefw"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:37:56
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 144
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryilxykO1PrNG7lFfY
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_LAST_SETTINGS=; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => efwfewefw
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[{"CODE":2308,"MESSAGE":"\u041f\u0440\u043e\u043c\u043e\u043a\u043e\u0434 \u0443\u0436\u0435 \u0431\u044b\u043b \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d"}],"ANSWER":[],"TIMESTAMP":1468831076}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:42:48
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:42:48","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"141","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundarydFwHzImnAdmr5voB","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"487acf"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:42:48
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 141
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundarydFwHzImnAdmr5voB
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => 487acf
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[{"CODE":2309,"MESSAGE":"\u041d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u043f\u043e \u043f\u0440\u043e\u043c\u043e\u043a\u043e\u0434\u0443"}],"ANSWER":[],"TIMESTAMP":1468831368}
+================================
+
+================================
+/api/v2.0/promo/register
+18.07.2016 12:42:59
+User: 233669 (y.alekseev)
+JSON_FULL_DATA: {"PATH":"\/api\/v2.0\/promo\/register","DATE":"18.07.2016 12:42:59","USER":"233669 (y.alekseev)","HEADERS":{"Host":"192.168.15.110:6449","Connection":"keep-alive","Content-Length":"141","User-Agent":"Mozilla\/5.0 (Windows NT 6.1; WOW64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/50.0.2661.102 YaBrowser\/16.6.1.30117 Yowser\/2.5 Safari\/537.36","Login":"eS5hbGVrc2Vldg==","Origin":"chrome-extension:\/\/aahelpfcopefplnmnphdochceilphfeb","Site-Id":"kg","Token-App":"50902a8c-1c25-4eff-a6d8-b81afea14d68","Token":"3201b2a2d25a7ba49fa821d37309c187","Content-Type":"multipart\/form-data; boundary=----WebKitFormBoundaryZMtK3E6MIIKSAgX8","Accept":"*\/*","Accept-Encoding":"gzip, deflate","Accept-Language":"ru,en;q=0.8","Cookie":"_ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_SALE_UID=15194148"},"GET":[],"POST":{"CODE":"487acf"},"BODY":null}
+--------------------------------
+Array
+(
+    [PATH] => /api/v2.0/promo/register
+    [DATE] => 18.07.2016 12:42:59
+    [USER] => 233669 (y.alekseev)
+    [HEADERS] => Array
+        (
+            [Host] => 192.168.15.110:6449
+            [Connection] => keep-alive
+            [Content-Length] => 141
+            [User-Agent] => Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 YaBrowser/16.6.1.30117 Yowser/2.5 Safari/537.36
+            [Login] => eS5hbGVrc2Vldg==
+            [Origin] => chrome-extension://aahelpfcopefplnmnphdochceilphfeb
+            [Site-Id] => kg
+            [Token-App] => 50902a8c-1c25-4eff-a6d8-b81afea14d68
+            [Token] => 3201b2a2d25a7ba49fa821d37309c187
+            [Content-Type] => multipart/form-data; boundary=----WebKitFormBoundaryZMtK3E6MIIKSAgX8
+            [Accept] => */*
+            [Accept-Encoding] => gzip, deflate
+            [Accept-Language] => ru,en;q=0.8
+            [Cookie] => _ym_uid=146244798428255593; BX_USER_ID=a81788c317e80216bf74ecec44fe2570; BITRIX_SM_user_profile_open=reg,reg2,personal2; BITRIX_SM_ALTASIB_LAST_IP=192.168.15.110; BITRIX_SM_ALTASIB_GEOBASE=%7B%22ID%22%3A%22%22%2C%22BLOCK_BEGIN%22%3A%22%22%2C%22BLOCK_END%22%3A%22%22%2C%22BLOCK_ADDR%22%3A%22%22%2C%22COUNTRY_CODE%22%3A%22%22%2C%22CITY_ID%22%3A%22%22%2C%22CITY_NAME%22%3A%22%22%2C%22REGION_NAME%22%3A%22%22%2C%22COUNTY_NAME%22%3A%22%22%2C%22BREADTH_CITY%22%3A%22%22%2C%22LONGITUDE_CITY%22%3A%22%22%7D; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; BITRIX_SM_DSC=44; pay_options=; f_promo=; f_promo_active=; ACCEPT_REGION=Y; BITRIX_SM_BANNERS=1_229_21_18072016%2C1_221_3_18072016; 2-berega-basket=down; PHPSESSID=33b026cea86e2c903773b646b49a5144; _ga=GA1.1.2030751952.1462447984; rrrbt=; rcuid=55e4074a1e99460814c4a671; rrpusid=55e4074a1e99460814c4a671; rrlpuid=; rrpvid=455565432510877; _ym_isad=2; _ym_visorc_13840453=w; lt_uid=afe7d959-d585-44bc-b6ea-fdb2bffc94c9; BITRIX_SM_UIDH=3201b2a2d25a7ba49fa821d37309c187; BITRIX_SM_UIDL=y.alekseev; BITRIX_SM_LOGIN=y.alekseev; BITRIX_SM_SALE_UID=15194148
+        )
+
+    [GET] => Array
+        (
+        )
+
+    [POST] => Array
+        (
+            [CODE] => 487acf
+        )
+
+    [BODY] => 
+)
+ADDITIONAL
+{"ERRORS":[],"ANSWER":[],"TIMESTAMP":1468831379}
+================================
+
